@@ -1,0 +1,17 @@
+This document is an index for the codes:
+
+1) Project_Means is a script that averages the number of spikes correspoding to each neuron over all the trials of the experiment. This code is used for giving the PSTH plots in the report. 
+
+2) Project_AdaBoost implements the Boosting Algorithm. The tunable parameters are: 
+	a) The .mat file to be loaded (Chooses the day) (line 18)
+	b) The width of the bin. This can be varied by changing the value of the variable bin_size (line 53)
+	c) Number of trials to be used for testing and training. These are stored in numtrain and numtest (line 75-76)
+
+
+3) Project_SVM implements the SVM Algorithm. The tunable parameters are: 
+	a) The .mat file to be loaded (Chooses the day) (line 17)
+	b) The width of the bin. This can be varied by changing the value of the variable bin_size (line 51)
+	c) Number of trials to be used for testing and training. These are stored in numtrain and numtest (line 71-72)
+
+Results: Final accuracy is given by: accuracy/(50*numtest)
+
